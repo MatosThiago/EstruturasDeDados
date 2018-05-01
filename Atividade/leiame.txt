@@ -1,0 +1,50 @@
+A atividade é composta por 4 questões, e suas respectivas soluções estão divididas em 4 arquivos:
+
+	Q1.c - referente à questão 01
+		
+		Descrição: O programa aloca dinamicamente um vetor de tipo estrutura, de tamanho
+	especificado pelo usuário, e recebe dados do mesmo, gravando neste
+	vetor, após o cadastramento dos dados o programa permite a busca de uma profissão
+	através de seu código.
+
+	
+	Q2.c - referente à questão 02
+		
+		Descrição: O programa aloca dinamicamente um vetor de tipo estrutura, de tamanho
+	especificado pelo usuário, e recebe dados do mesmo, gravando neste
+	vetor, após o cadastramento dos dados o programa exibe o nome e salário
+	dos funcionários que recebem uma quantia maior que a média geral dos salários.
+
+
+	Q3.c - referente à questão 03
+		
+		Descrição: O programa aloca dinamicamente um vetor de tipo estrutura, de tamanho
+	especificado pelo usuário, e recebe dados do mesmo, gravando neste
+	vetor, após o cadastramento dos dados o programa exibe o nome e salário
+	dos funcionários que recebem uma quantia maior que a média geral dos salários,
+	armazena o conteúdo do vetor no arquivo "data.bin", e o conteúdo da variável
+	N no arquivo "n.bin".
+
+
+	Q4.c - referente à questão 04
+		
+		Descrição: O programa lê um valor inteiro do arquivo "n.bin" (gerado pela execução do arquivo Q3.c)
+ 	e aloca dinamicamente um vetor do tamanho do inteiro lido, em seguiga o programa lê o arquivo "data.bin" (gerado pela execução do arquivo Q3.c)
+	e salva o conteúdo do arquivo no vetor anteriomente criado, após isso ele exibe
+	o conteúdo do vetor.
+
+Outros arquivos:
+
+	data.bin - gerado pela execução do arquivo Q3.c
+
+		Descrição: Armazena o conteúdo do vetor proveniente da execução do arquivo Q3.c
+
+
+	n.bin - gerado pela execução do arquivo Q3.c
+
+		Descrição: Armazena um inteiro proveniente da execução do arquivo Q3.c
+
+
+Os arquivos foram compilados da seguinte forma:
+
+gcc -o Qi Qi.c -Wall -pedantic -std=c99 -g		(onde "i" é referente ao número da questão)
